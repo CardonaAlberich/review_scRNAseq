@@ -2,8 +2,7 @@ library(ggplot2)
 library(readxl)
 
 #Import the data. The dates are in format YYYY-MM-DD.
-table_for_fig <- read_excel("table for fig.xlsx", 
-                            +     col_types = c("text", "text", "text", 
+table_for_fig <- read_excel("table for fig.xlsx", col_types = c("text", "text", "text", 
                                                 +         "text", "numeric", "text", "text"))
 
 table_for_fig$Date_r <- as.Date(table_for_fig$Date_r, origin="2014-01-01")    #transform data to Date
