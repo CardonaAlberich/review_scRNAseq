@@ -25,7 +25,7 @@ It requires the following R packages:
 
 ```r
 install.packages(c("ggplot2", "dplyr", "readr"))
-
+```
 ---
 
 ```markdown
