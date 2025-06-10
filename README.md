@@ -28,6 +28,4 @@ install.packages(c("ggplot2", "dplyr", "readr"))
 ```
 ---
 
-```markdown
 ![Final plot](graph_for_fig2.pdf)
-```
